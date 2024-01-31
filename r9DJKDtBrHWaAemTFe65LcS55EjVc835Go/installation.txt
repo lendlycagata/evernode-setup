@@ -33,6 +33,8 @@ curl -fsSL https://raw.githubusercontent.com/EvernodeXRPL/evernode-resources/mai
 
 Add ipv6 additinal setup  ctrl O to save ctrl+x to exit
 
+sudo nano /etc/sysctl.conf
+
 net.ipv6.conf.all.autoconf=0
 net.ipv6.conf.default.autoconf=0
 net.ipv6.conf.default.use_tempaddr=0
